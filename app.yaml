@@ -1,7 +1,7 @@
 runtime: python312  # Specifies the Python 3.12 version
 instance_class: F1 # Uses the smallest instance type (Free Tier eligible)
 
-auto_scaling:
+automatic_scaling:
   min_instances: 1
   max_instances: 10
 
